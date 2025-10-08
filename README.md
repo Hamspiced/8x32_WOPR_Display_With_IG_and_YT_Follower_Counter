@@ -61,3 +61,17 @@ const char* YOUTUBE_CHANNEL_ID = "YOUR_CHANNEL_ID";
 
 const char* IG_ACCESS_TOKEN = "YOUR_IG_GRAPH_API_TOKEN";
 const char* IG_USER_ID      = "YOUR_IG_USER_ID";
+```
+### 4. Configuration
+You can go to the web interface of the unit from the Static IP that is set or the DHCP assigned address and adjust intensity, scroll speed, and your API keys and usernames.   From here you should be able to save and reboot the device.
+
+### 5. Help
+
+Sorry, i cannot provide any because this took me a while to setup as well.  The code is correct however getting the access tokens, ID's and generated keys take a while.  What i can do is give you some pointers.    
+
+For Instagram you need to make an app, give it the proper permissions, and generate a token.  Use the Graph API explorer to generate your token and find your User ID.
+```https://developers.facebook.com/tools/explorer/```
+Once you get your token generated you need to convert it to an extended token here:
+```https://developers.facebook.com/tools/debug/accesstoken/?access_token="Your_Token_ID"```
+
+This is about as much help as i can give as this was a struggle for me.
