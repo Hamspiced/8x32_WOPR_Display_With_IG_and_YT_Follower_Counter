@@ -103,7 +103,7 @@ long fetchYouTubeSubs() {
 
 long fetchInstagramFollowers() {
   if (!ENABLE_IG) return -1;
-  String url = String("https://graph.facebook.com/v19.0/") + IG_USER_ID +
+  String url = String("https://graph.instagram.com/v19.0/") + IG_USER_ID +
                "?fields=followers_count&access_token=" + IG_TOKEN;
   String body;
   if (!httpsGET(url, body)) return -1;
