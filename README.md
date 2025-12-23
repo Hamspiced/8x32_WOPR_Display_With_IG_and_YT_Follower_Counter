@@ -74,6 +74,9 @@ For Instagram you need to make an app, give it the proper permissions, and gener
 Once you get your token generated you need to convert it to an extended token here:
 ```https://developers.facebook.com/tools/debug/accesstoken/?access_token="Your_Token_ID"```
 
+You can test your Instagram UserID and Access Token with the URL below just change the UserID and AccessToken below.
+https://graph.instagram.com/v19.0/{USERID}?fields=followers_count&access_token={AccessToken}
+
 Then every 60 days youll have to go to :  https://developers.facebook.com/
 
 Go to the API Setup with Instagram Login:  generate a new token
